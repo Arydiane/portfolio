@@ -1,10 +1,38 @@
 [
     {
-        "img": "img/pagina-portfolio.jpg",
-        "title": "Meu portfólio", 
-        "description": "Meu portfólio criado com o objetivo de mostrar meus projetos.",
-        "technologies": "HTML e CSS",
-        "url": "https://github.com/Arydiane/portfolio"
+        "img": "img/pagina-casa-verde.jpg",
+        "title": "Casa Verde", 
+        "description": "É um site de venda de plantas.",
+        "technologies": "React JS e Sass",
+        "url": "https://github.com/Arydiane/projeto-casa-verde"
+    },
+    {
+        "img": "img/pagina-turismo.jpg",
+        "title": "Conheça Rio das Ostras", 
+        "description": "O Conheça Rio das Ostras é um site sobre o turismo desta localidade.",
+        "technologies": "HTML, CSS e JavaScript",
+        "url": "https://github.com/Arydiane/projeto-rio-das-ostras"
+    },
+    {
+        "img": "img/pagina-to-do.jpg",
+        "title": "To Do List", 
+        "description": "É um site para organizar as suas listas de tarefas.",
+        "technologies": "React JS",
+        "url": "https://github.com/Arydiane/to-do-list"
+    }, 
+    {
+        "img": "img/pagina-clock.jpg",
+        "title": "Clock ", 
+        "description": "Apresenta a hora atual e informações de localização, faz uso da IP-API.",
+        "technologies": "React JS",
+        "url": "https://github.com/Arydiane/clock"
+    }, 
+    {
+        "img": "img/pagina-rocketflix.jpg",
+        "title": "Rocketflix", 
+        "description": "Página sugere um filme de forma aleatória e usa API do themoviedb.org.",
+        "technologies": "HTMLCSS",
+        "url": "https://github.com/Arydiane/Rocketflix"
     }, 
     {
         "img": "img/pagina-social-tree.jpg",
@@ -14,11 +42,11 @@
         "url": "https://github.com/Arydiane/Social-Tree"
     }, 
     {
-        "img": "img/pagina-formulario.jpg",
-        "title": "Formulário de login", 
-        "description": "Um formulário de login responsivo.",
-        "technologies": "HTML e CSS",
-        "url": "https://github.com/Arydiane/Login-Form-CSS"
+        "img": "img/pagina-filmes-populares.jpg",
+        "title": "Filmes Populares", 
+        "description": "Projeto filmes populares com consumo da The Movie DataBase API.",
+        "technologies": "HTML, CSS e JavaScript",
+        "url": "https://github.com/Arydiane/projeto-filmes-populares"
     }, 
     {
         "img": "img/pagina-countdown.jpg",
@@ -35,45 +63,17 @@
         "url": "https://github.com/Arydiane/rocketcard"
     }, 
     {
-        "img": "img/pagina-rocketflix.jpg",
-        "title": "Rocketflix", 
-        "description": "Página sugere um filme de forma aleatória e usa API do themoviedb.org.",
-        "technologies": "HTMLCSS",
-        "url": "https://github.com/Arydiane/Rocketflix"
+        "img": "img/pagina-formulario.jpg",
+        "title": "Formulário de login", 
+        "description": "Um formulário de login responsivo.",
+        "technologies": "HTML e CSS",
+        "url": "https://github.com/Arydiane/Login-Form-CSS"
     }, 
     {
-        "img": "img/pagina-filmes-populares.jpg",
-        "title": "Filmes Populares", 
-        "description": "Projeto filmes populares com consumo da The Movie DataBase API.",
-        "technologies": "HTML, CSS e JavaScript",
-        "url": "https://github.com/Arydiane/projeto-filmes-populares"
-    }, 
-    {
-        "img": "img/pagina-turismo.jpg",
-        "title": "Conheça Rio das Ostras", 
-        "description": "O Conheça Rio das Ostras é um site sobre o turismo desta localidade.",
-        "technologies": "HTML, CSS e JavaScript",
-        "url": "https://github.com/Arydiane/projeto-rio-das-ostras"
-    }, 
-    {
-        "img": "img/pagina-clock.jpg",
-        "title": "Clock ", 
-        "description": "Apresenta a hora atual e informações de localização, faz uso da IP-API.",
-        "technologies": "React JS",
-        "url": "https://github.com/Arydiane/clock"
-    }, 
-    {
-        "img": "img/pagina-to-do.jpg",
-        "title": "To Do List", 
-        "description": "É um site para organizar as suas listas de tarefas.",
-        "technologies": "React JS",
-        "url": "https://github.com/Arydiane/to-do-list"
-    }, 
-    {
-        "img": "img/pagina-casa-verde.jpg",
-        "title": "Casa Verde", 
-        "description": "É um site de venda de plantas.",
-        "technologies": "React JS e Sass",
-        "url": "https://github.com/Arydiane/projeto-casa-verde"
+        "img": "img/pagina-portfolio.jpg",
+        "title": "Meu portfólio", 
+        "description": "Meu portfólio criado com o objetivo de mostrar meus projetos.",
+        "technologies": "HTML e CSS",
+        "url": "https://github.com/Arydiane/portfolio"
     }
 ]
