@@ -235,7 +235,7 @@ h1, h2 {
     flex: 1 1 40%;
 }
 
-#redes-sociais-links, #whatsapp  {
+#redes-sociais-links, #address  {
     flex: 1 1 20%; 
 }
 
@@ -337,7 +337,7 @@ footer a:hover {
     /* projects- section - fim */
 
     /* contact-section - início */
-    #contact-text, #redes-sociais-links, #whatsapp  {
+    #contact-text, #redes-sociais-links, #address  {
         flex: 1 1 100%;
     }
     /* contact-section - fim */
