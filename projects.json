@@ -15,8 +15,8 @@
     }, 
     {
         "img": "img/pagina-formulario.jpg",
-        "title": "Formulario de login", 
-        "description": "Criar um formulário de login responsivo.",
+        "title": "Formulário de login", 
+        "description": "Um formulário de login responsivo.",
         "technologies": "HTML e CSS",
         "url": "https://github.com/Arydiane/Login-Form-CSS"
     }, 
