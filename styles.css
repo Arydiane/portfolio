@@ -5,7 +5,7 @@
     --cor2: #3a1b5987;
     --cor3: #592055;
     --cor4: #8C2B6A;
-    --cor5: #D93D76; 
+    --cor5: #D93D76;
     --cor-texto: #ffffff;
 }
 
@@ -21,13 +21,11 @@ html {
 }
 
 body {
-    background-color:var(--cor1);
+    background-color: var(--cor1);
     font-size: 1.6rem;
     color: var(--cor-texto);
 }
 
-
-/* navbar - início */
 header {
     width: 100%;
     height: 6rem;
@@ -79,17 +77,16 @@ header {
 #container-header a:hover {
     background-color: var(--cor4);
 }
-/* navbar - fim */
 
-h1, h2 {
+h1,
+h2 {
     font-family: 'Playfair Display', serif;
     font-size: 3.6rem;
     color: var(--cor5);
 }
 
-/*welcome-section - inicio */
 #welcome-section {
-    width:100%;
+    width: 100%;
     height: 100vh;
     background-image: url(img/fundo-M.jpg);
     background-size: cover;
@@ -113,7 +110,6 @@ h1, h2 {
     color: var(--cor-texto);
     font-size: 4rem;
 }
-/* welcome-section - fim */
 
 .sections {
     width: 80%;
@@ -127,7 +123,6 @@ h1, h2 {
     text-shadow: 0px 0px 1px black;
 }
 
-/*about-me-section - inicio */
 #container-about-me {
     display: flex;
     flex-flow: row wrap;
@@ -169,15 +164,14 @@ h1, h2 {
     background-color: var(--cor1);
     color: var(--cor5);
 }
-/*about-me-section - fim */
 
-/* projects- section - inicio */
 #projects {
     width: 100%;
     background-color: var(--cor2);
 }
 
-#container-projects, #projects .subtitle {
+#container-projects,
+#projects .subtitle {
     width: 80%;
     margin: 0 auto;
 }
@@ -187,6 +181,7 @@ h1, h2 {
     flex-flow: row wrap;
     justify-content: space-between;
 }
+
 .card-project {
     background-color: var(--cor3);
     border: 2px solid var(--cor2);
@@ -212,19 +207,20 @@ h1, h2 {
 .img-project {
     width: 100%;
 }
+
 .project-description {
-    padding-top: 1.5rem; 
+    padding-top: 1.5rem;
     padding-bottom: 2rem;
 }
+
 .project-technologies {
     font-size: 1.3rem;
 }
+
 .project-technologies strong {
     color: var(--cor5);
 }
-/* projects- section - fim */
 
-/* contact-section - início */
 #container-contact {
     display: flex;
     flex-flow: row wrap;
@@ -235,11 +231,13 @@ h1, h2 {
     flex: 1 1 40%;
 }
 
-#redes-sociais-links, #address  {
-    flex: 1 1 20%; 
+#redes-sociais-links,
+#address {
+    flex: 1 1 20%;
 }
 
-#contact h3, #contact p {
+#contact h3,
+#contact p {
     padding: 1rem;
 }
 
@@ -247,9 +245,7 @@ h1, h2 {
     width: 3rem;
     margin: 0.5rem;
 }
-/* contact-section - fim */
 
-/* footer - início */
 footer {
     text-align: center;
     font-size: 1.3rem;
@@ -262,22 +258,20 @@ footer a {
     text-decoration: none;
     color: var(--cor4);
 }
+
 footer a:hover {
     text-decoration: underline;
 }
-/* footer - fim */
+
 
 @media (prefers-reduced-motion: no-preference) {
     * {
-      scroll-behavior: smooth;
+        scroll-behavior: smooth;
     }
-  }
-  
+}
 
-/*para dispositivos móveis - início */
 @media (max-width: 480px) {
 
-    /* navbar - início */
     header {
         height: 8.5rem;
     }
@@ -289,7 +283,7 @@ footer a:hover {
 
     #navbar {
         flex: 0 1 auto;
-        align-items:flex-end;
+        align-items: flex-end;
         margin-top: 0.5rem;
     }
 
@@ -303,22 +297,18 @@ footer a:hover {
         padding-right: 0.5rem;
         padding-bottom: 0.5rem;
     }
-    /* navbar - fim */
 
-    /* welcome-section - início */
     #welcome-section {
         background-position: top center;
     }
-    /* welcome-section - fim */
 
     .subtitle {
         padding-top: 8.5rem;
         text-align: center;
     }
 
-    /*about-me-section - inicio */
     #about-me-text {
-        padding: 0rem;
+        padding: 0;
         flex: 1 1 50%;
         text-align: center;
     }
@@ -327,47 +317,36 @@ footer a:hover {
         padding: 1rem 1rem;
     }
 
-    /*about-me-section - fim */
-
-
-    /* projects- section - inicio */
     #container-projects {
         justify-content: center;
     }
-    /* projects- section - fim */
 
-    /* contact-section - início */
-    #contact-text, #redes-sociais-links, #address  {
+    #contact-text,
+    #redes-sociais-links,
+    #address {
         flex: 1 1 100%;
     }
-    /* contact-section - fim */
 }
-/*para dispositivos móveis - fim */
 
-/* para ipads e tablets*/
 @media (max-width: 800px) {
 
-    /* welcome-section - início */
     #welcome-section {
         background-position: top center;
     }
-    /* welcome-section - fim */
+
     .subtitle {
         text-align: center;
     }
 
-    /*about-me-section - inicio */
-        #about-me-text {
-            flex: 1 1 50%;
-        }
-        .btn a {
-            padding: 1rem 1rem;
-        }
-    /*about-me-section - fim */
-        
-    /* projects- section - inicio */
+    #about-me-text {
+        flex: 1 1 50%;
+    }
+
+    .btn a {
+        padding: 1rem 1rem;
+    }
+
     #container-projects {
         justify-content: center;
     }
-    /* projects- section - fim */
 }
