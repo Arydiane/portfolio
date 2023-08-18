@@ -9,7 +9,7 @@
     {
         "img": "img/pagina-social-tree.jpg",
         "title": "Social Tree", 
-        "description": "Uma página com lista de links",
+        "description": "Uma página com lista de links.",
         "technologies": "HTML e CSS",
         "url": "https://github.com/Arydiane/Social-Tree"
     }, 
@@ -37,14 +37,14 @@
     {
         "img": "img/pagina-rocketflix.jpg",
         "title": "Rocketflix", 
-        "description": "Página sugere um filme de forma aleatória e usa API do themoviedb.org",
+        "description": "Página sugere um filme de forma aleatória e usa API do themoviedb.org.",
         "technologies": "HTMLCSS",
         "url": "https://github.com/Arydiane/Rocketflix"
     }, 
     {
         "img": "img/pagina-filmes-populares.jpg",
         "title": "Filmes Populares", 
-        "description": "Projeto filmes populares com consumo da The Movie DataBase API",
+        "description": "Projeto filmes populares com consumo da The Movie DataBase API.",
         "technologies": "HTML, CSS e JavaScript",
         "url": "https://github.com/Arydiane/projeto-filmes-populares"
     }, 
@@ -58,7 +58,7 @@
     {
         "img": "img/pagina-clock.jpg",
         "title": "Clock ", 
-        "description": "Apresenta a hora atual e informações de localização, faz uso da IP-API",
+        "description": "Apresenta a hora atual e informações de localização, faz uso da IP-API.",
         "technologies": "React JS",
         "url": "https://github.com/Arydiane/clock"
     }, 
