@@ -21,6 +21,20 @@
         "url": "https://github.com/Arydiane/to-do-list"
     }, 
     {
+        "img": "img/pagina-minha-estante.jpg",
+        "title": "Minha Estante", 
+        "description": "O Minha Estante de Livros permite organizar todos os livros lidos.",
+        "technologies": "React JS e Sass",
+        "url": "https://github.com/Arydiane/projeto-minha-estante-livros"
+    }, 
+    {
+        "img": "img/pagina-jogo-mario.jpg",
+        "title": "Jogo Mario Jump", 
+        "description": "É um jogo de salto de obstáculos.",
+        "technologies": "HTML, CSS e JavaScript",
+        "url": "https://github.com/Arydiane/jogo-mario-jump"
+    }, 
+    {
         "img": "img/pagina-clock.jpg",
         "title": "Clock ", 
         "description": "Apresenta a hora atual e informações de localização, faz uso da IP-API.",
