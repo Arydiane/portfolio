@@ -231,13 +231,22 @@ h2 {
     flex: 1 1 40%;
 }
 
+#contact-text a {
+    text-decoration: none;
+    color: var(--cor-texto);
+}
+
+#contact-text a:hover {
+    text-decoration: underline;
+}
+
 #redes-sociais-links,
-#address {
+address {
     flex: 1 1 20%;
 }
 
 #contact h3,
-#contact p {
+#contact a {
     padding: 1rem;
 }
 
@@ -323,7 +332,7 @@ footer a:hover {
 
     #contact-text,
     #redes-sociais-links,
-    #address {
+    address {
         flex: 1 1 100%;
     }
 }
