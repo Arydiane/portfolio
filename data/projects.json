@@ -7,12 +7,12 @@
         "url": "https://github.com/Arydiane/projeto-casa-verde"
     },
     {
-        "img": "img/pagina-turismo.jpg",
-        "title": "Conheça Rio das Ostras", 
-        "description": "O Conheça Rio das Ostras é um site sobre o turismo desta localidade.",
+        "img": "img/pagina-jogo-mario.jpg",
+        "title": "Jogo Mario Jump", 
+        "description": "É um jogo de salto de obstáculos.",
         "technologies": "HTML, CSS e JavaScript",
-        "url": "https://github.com/Arydiane/projeto-rio-das-ostras"
-    },
+        "url": "https://github.com/Arydiane/jogo-mario-jump"
+    }, 
     {
         "img": "img/pagina-to-do.jpg",
         "title": "To Do List", 
@@ -21,18 +21,18 @@
         "url": "https://github.com/Arydiane/to-do-list"
     }, 
     {
+        "img": "img/pagina-turismo.jpg",
+        "title": "Conheça Rio das Ostras", 
+        "description": "O Conheça Rio das Ostras é um site sobre o turismo desta localidade.",
+        "technologies": "HTML, CSS e JavaScript",
+        "url": "https://github.com/Arydiane/projeto-rio-das-ostras"
+    },
+    {
         "img": "img/pagina-minha-estante.jpg",
         "title": "Minha Estante", 
         "description": "O Minha Estante de Livros permite organizar todos os livros lidos.",
         "technologies": "React JS e Sass",
         "url": "https://github.com/Arydiane/projeto-minha-estante-livros"
-    }, 
-    {
-        "img": "img/pagina-jogo-mario.jpg",
-        "title": "Jogo Mario Jump", 
-        "description": "É um jogo de salto de obstáculos.",
-        "technologies": "HTML, CSS e JavaScript",
-        "url": "https://github.com/Arydiane/jogo-mario-jump"
     }, 
     {
         "img": "img/pagina-clock.jpg",
@@ -45,15 +45,8 @@
         "img": "img/pagina-rocketflix.jpg",
         "title": "Rocketflix", 
         "description": "Página sugere um filme de forma aleatória e usa API do themoviedb.org.",
-        "technologies": "HTMLCSS",
+        "technologies": "HTML, CSS e JavaScript",
         "url": "https://github.com/Arydiane/Rocketflix"
-    }, 
-    {
-        "img": "img/pagina-social-tree.jpg",
-        "title": "Social Tree", 
-        "description": "Uma página com lista de links.",
-        "technologies": "HTML e CSS",
-        "url": "https://github.com/Arydiane/Social-Tree"
     }, 
     {
         "img": "img/pagina-filmes-populares.jpg",
@@ -70,6 +63,13 @@
         "url": "https://github.com/Arydiane/Countdown"
     }, 
     {
+        "img": "img/pagina-portfolio.jpg",
+        "title": "Meu portfólio", 
+        "description": "Meu portfólio criado com o objetivo de mostrar meus projetos.",
+        "technologies": "HTML, CSS e JavaScript",
+        "url": "https://github.com/Arydiane/portfolio"
+    },
+    {
         "img": "img/pagina-rocketcard.jpg",
         "title": "Rocketcard", 
         "description": "Um card que traga as informações da API do Github.",
@@ -82,12 +82,12 @@
         "description": "Um formulário de login responsivo.",
         "technologies": "HTML e CSS",
         "url": "https://github.com/Arydiane/Login-Form-CSS"
-    }, 
+    },
     {
-        "img": "img/pagina-portfolio.jpg",
-        "title": "Meu portfólio", 
-        "description": "Meu portfólio criado com o objetivo de mostrar meus projetos.",
+        "img": "img/pagina-social-tree.jpg",
+        "title": "Social Tree", 
+        "description": "Uma página com lista de links.",
         "technologies": "HTML e CSS",
-        "url": "https://github.com/Arydiane/portfolio"
+        "url": "https://github.com/Arydiane/Social-Tree"
     }
 ]
