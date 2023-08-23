@@ -3,7 +3,7 @@ let projects = []
 
 //lê o arquivo json com dados
 async function getListsProjects(){
-    const fetchResponse  =  await fetch("./projects.json")
+    const fetchResponse  =  await fetch("../data/projects.json")
     const results = await fetchResponse.json()
     return results
 }
