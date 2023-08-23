@@ -1,12 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Playfair+Display:ital,wght@1,400;1,700;1,900&display=swap');
 
 :root {
-    --cor1: #0F1257;
-    --cor2: #3a1b5987;
-    --cor3: #592055;
-    --cor4: #8C2B6A;
-    --cor5: #D93D76;
+    --cor-azul: #0F1257;
+    --cor-roxa-escura: #3a1b5987;
+    --cor-roxa-claro: #8C2B6A;
+    --cor-rosa: #D93D76;
     --cor-texto: #ffffff;
+    --card-gradiente: linear-gradient(145deg, #22144f, #29185e);
+    --card-sombra: 22px 22px 44px #180e38, -22px -22px 44px #341e78;
+    --fonte-principal: 'Lato', sans-serif;
+    --fonte-destaque: 'Playfair Display', serif;
 }
 
 * {
@@ -17,19 +20,20 @@
 
 html {
     font-size: 62.5%;
-    font-family: 'Lato', sans-serif;
+    font-family: var(--fonte-principal);
 }
 
 body {
-    background-color: var(--cor1);
+    background-color: var(--cor-azul);
     font-size: 1.6rem;
     color: var(--cor-texto);
+    min-width: 360px;
 }
 
 header {
     width: 100%;
     height: 6rem;
-    background-color: var(--cor1);
+    background-color: var(--cor-azul);
     position: fixed;
     top: 0;
     z-index: 1;
@@ -47,13 +51,13 @@ header {
 }
 
 #logo a {
-    font-family: 'Lato', serif;
+    font-family: var(--fonte-principal);
     font-size: 4rem;
     font-weight: bold;
     color: var(--cor-texto);
     text-decoration: none;
     padding: 0.5rem;
-    border: 1px solid var(--cor5);
+    border: 1px solid var(--cor-rosa);
     flex: 0 1 auto;
 }
 
@@ -75,20 +79,20 @@ header {
 }
 
 #container-header a:hover {
-    background-color: var(--cor4);
+    background-color: var(--cor-roxa-claro);
 }
 
 h1,
 h2 {
-    font-family: 'Playfair Display', serif;
+    font-family: var(--fonte-destaque);
     font-size: 3.6rem;
-    color: var(--cor5);
+    color: var(--cor-rosa);
 }
 
 #welcome-section {
     width: 100%;
     height: 100vh;
-    background-image: url(img/fundo-M.jpg);
+    background-image: url(../img/fundo-M.jpg);
     background-size: cover;
     position: relative;
 }
@@ -97,7 +101,7 @@ h2 {
     width: 80%;
     margin: 0 auto;
     text-align: right;
-    color: var(--cor5);
+    color: var(--cor-rosa);
     text-shadow: 0px 0px 1px black;
     font-size: 1.8rem;
     position: absolute;
@@ -134,8 +138,8 @@ h2 {
     max-width: 25rem;
     flex: 1 1 30%;
     padding: 1rem;
-    border: 0.1rem solid var(--cor4);
-    box-shadow: 1px 1px 1px var(--cor1);
+    border: 0.1rem solid var(--cor-roxa-claro);
+    box-shadow: 1px 1px 1px var(--cor-azul);
 }
 
 #about-me-text {
@@ -154,20 +158,20 @@ h2 {
 .btn a {
     text-align: center;
     padding: 1rem 4rem;
-    background-color: var(--cor5);
-    border: 3px solid var(--cor5);
-    color: var(--cor1);
+    background-color: var(--cor-rosa);
+    border: 3px solid var(--cor-rosa);
+    color: var(--cor-azul);
     text-decoration: none;
 }
 
 .btn a:hover {
-    background-color: var(--cor1);
-    color: var(--cor5);
+    background-color: var(--cor-azul);
+    color: var(--cor-rosa);
 }
 
 #projects {
     width: 100%;
-    background-color: var(--cor2);
+    background-color: var(--cor-roxa-escura);
 }
 
 #container-projects,
@@ -183,25 +187,25 @@ h2 {
 }
 
 .card-project {
-    background-color: var(--cor3);
-    border: 2px solid var(--cor2);
+    background: var(--card-gradiente);
+    box-shadow: var(--card-sombra);
+    border: 2px solid var(--cor-roxa-escura);
     width: 30rem;
     height: 40rem;
-    margin-top: 2rem;
+    margin-top: 4rem;
     border-radius: 1rem;
     text-align: center;
     padding: 1rem;
 }
 
 .card-project:hover {
-    border: 2px solid var(--cor5);
-    box-shadow: 5px 5px 10px var(--cor1);
+    border: 2px solid var(--cor-rosa);
 }
 
 .title-project {
     padding-top: 1.5rem;
     padding-bottom: 1rem;
-    color: var(--cor5);
+    color: var(--cor-rosa);
 }
 
 .img-project {
@@ -218,7 +222,7 @@ h2 {
 }
 
 .project-technologies strong {
-    color: var(--cor5);
+    color: var(--cor-rosa);
 }
 
 #container-contact {
@@ -259,13 +263,13 @@ footer {
     text-align: center;
     font-size: 1.3rem;
     padding: 3rem;
-    color: var(--cor4);
+    color: var(--cor-roxa-claro);
     text-shadow: 0px 0px 1px black;
 }
 
 footer a {
     text-decoration: none;
-    color: var(--cor4);
+    color: var(--cor-roxa-claro);
 }
 
 footer a:hover {
