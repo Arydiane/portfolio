@@ -14,6 +14,13 @@
         "url": "https://github.com/Arydiane/jogo-mario-jump"
     }, 
     {
+        "img": "img/pagina-jogo-alvo.jpg",
+        "title": "Jogo Tiro ao Alvo", 
+        "description": "É um jogo de tiro ao alvo.",
+        "technologies": "HTML, CSS e JavaScript",
+        "url": "https://github.com/Arydiane/jogo-tiro-ao-alvo"
+    }, 
+    {
         "img": "img/pagina-to-do.jpg",
         "title": "To Do List", 
         "description": "É um site para organizar as suas listas de tarefas.",
