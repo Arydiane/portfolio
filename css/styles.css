@@ -1,15 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Playfair+Display:ital,wght@1,400;1,700;1,900&display=swap');
 
 :root {
-    --cor-azul: #0F1257;
-    --cor-roxa-escura: #3a1b5987;
-    --cor-roxa-claro: #8C2B6A;
-    --cor-rosa: #D93D76;
-    --cor-texto: #ffffff;
-    --card-gradiente: linear-gradient(145deg, #22144f, #29185e);
-    --card-sombra: 22px 22px 44px #180e38, -22px -22px 44px #341e78;
-    --fonte-principal: 'Lato', sans-serif;
-    --fonte-destaque: 'Playfair Display', serif;
+    --color-blue: #0F1257;
+    --color-dark-purple: #3a1b5987;
+    --color-light-purple: #8C2B6A;
+    --color-pink: #D93D76;
+    --color-text: #ffffff;
+    --card-gradient: linear-gradient(145deg, #22144f, #29185e);
+    --card-shadow: 22px 22px 44px #180e38, -22px -22px 44px #341e78;
+    --primary-font: 'Lato', sans-serif;
+    --highlight-font: 'Playfair Display', serif;
 }
 
 * {
@@ -20,20 +20,20 @@
 
 html {
     font-size: 62.5%;
-    font-family: var(--fonte-principal);
+    font-family: var(--primary-font);
 }
 
 body {
-    background-color: var(--cor-azul);
+    background-color: var(--color-blue);
     font-size: 1.6rem;
-    color: var(--cor-texto);
+    color: var(--color-text);
     min-width: 360px;
 }
 
 header {
     width: 100%;
     height: 6rem;
-    background-color: var(--cor-azul);
+    background-color: var(--color-blue);
     position: fixed;
     top: 0;
     z-index: 1;
@@ -51,13 +51,13 @@ header {
 }
 
 #logo a {
-    font-family: var(--fonte-principal);
+    font-family: var(--primary-font);
     font-size: 4rem;
     font-weight: bold;
-    color: var(--cor-texto);
+    color: var(--color-text);
     text-decoration: none;
     padding: 0.5rem;
-    border: 1px solid var(--cor-rosa);
+    border: 1px solid var(--color-pink);
     flex: 0 1 auto;
 }
 
@@ -74,19 +74,19 @@ header {
 
 .nav-link {
     padding: 2rem 1rem;
-    color: var(--cor-texto);
+    color: var(--color-text);
     text-decoration: none;
 }
 
 #container-header a:hover {
-    background-color: var(--cor-roxa-claro);
+    background-color: var(--color-light-purple);
 }
 
 h1,
 h2 {
-    font-family: var(--fonte-destaque);
+    font-family: var(--highlight-font);
     font-size: 3.6rem;
-    color: var(--cor-rosa);
+    color: var(--color-pink);
 }
 
 #welcome-section {
@@ -101,7 +101,7 @@ h2 {
     width: 80%;
     margin: 0 auto;
     text-align: right;
-    color: var(--cor-rosa);
+    color: var(--color-pink);
     text-shadow: 0px 0px 1px black;
     font-size: 1.8rem;
     position: absolute;
@@ -111,7 +111,7 @@ h2 {
 }
 
 #welcome-section h1 {
-    color: var(--cor-texto);
+    color: var(--color-text);
     font-size: 4rem;
 }
 
@@ -138,8 +138,8 @@ h2 {
     max-width: 25rem;
     flex: 1 1 30%;
     padding: 1rem;
-    border: 0.1rem solid var(--cor-roxa-claro);
-    box-shadow: 1px 1px 1px var(--cor-azul);
+    border: 0.1rem solid var(--color-light-purple);
+    box-shadow: 1px 1px 1px var(--color-blue);
 }
 
 #about-me-text {
@@ -158,20 +158,20 @@ h2 {
 .btn a {
     text-align: center;
     padding: 1rem 4rem;
-    background-color: var(--cor-rosa);
-    border: 3px solid var(--cor-rosa);
-    color: var(--cor-azul);
+    background-color: var(--color-pink);
+    border: 3px solid var(--color-pink);
+    color: var(--color-blue);
     text-decoration: none;
 }
 
 .btn a:hover {
-    background-color: var(--cor-azul);
-    color: var(--cor-rosa);
+    background-color: var(--color-blue);
+    color: var(--color-pink);
 }
 
 #projects {
     width: 100%;
-    background-color: var(--cor-roxa-escura);
+    background-color: var(--color-dark-purple);
 }
 
 #container-projects,
@@ -187,9 +187,9 @@ h2 {
 }
 
 .card-project {
-    background: var(--card-gradiente);
-    box-shadow: var(--card-sombra);
-    border: 2px solid var(--cor-roxa-escura);
+    background: var(--card-gradient);
+    box-shadow: var(--card-shadow);
+    border: 2px solid var(--color-dark-purple);
     width: 30rem;
     height: 40rem;
     margin-top: 4rem;
@@ -199,13 +199,13 @@ h2 {
 }
 
 .card-project:hover {
-    border: 2px solid var(--cor-rosa);
+    border: 2px solid var(--color-pink);
 }
 
 .title-project {
     padding-top: 1.5rem;
     padding-bottom: 1rem;
-    color: var(--cor-rosa);
+    color: var(--color-pink);
 }
 
 .img-project {
@@ -222,7 +222,7 @@ h2 {
 }
 
 .project-technologies strong {
-    color: var(--cor-rosa);
+    color: var(--color-pink);
 }
 
 #container-contact {
@@ -237,7 +237,7 @@ h2 {
 
 #contact-text a {
     text-decoration: none;
-    color: var(--cor-texto);
+    color: var(--color-text);
 }
 
 #contact-text a:hover {
@@ -263,13 +263,13 @@ footer {
     text-align: center;
     font-size: 1.3rem;
     padding: 3rem;
-    color: var(--cor-roxa-claro);
+    color: var(--color-light-purple);
     text-shadow: 0px 0px 1px black;
 }
 
 footer a {
     text-decoration: none;
-    color: var(--cor-roxa-claro);
+    color: var(--color-light-purple);
 }
 
 footer a:hover {
