@@ -2,16 +2,25 @@ const projectContainer = document.querySelector('#container-projects')
 let projects = []
 
 //lê o arquivo json com dados
-async function getListsProjects(){
-    const fetchResponse  =  await fetch("../data/projects.json")
-    const results = await fetchResponse.json()
-    return results
+async function getListsProjects() {
+    try {
+        const fetchResponse = await fetch("../data/projects.json")
+        const results = await fetchResponse.json()
+        return results
+    } catch (error) {
+        console.error("Erro ao buscar projetos:", error)
+        return []
+    }
 }
 
 // carrega os cards seção projetos dinamicamente
-window.onload =  async function() {
-    projects = await getListsProjects()
-    projects.forEach(project => renderProject(project))
+window.onload = async function () {
+    try {
+        projects = await getListsProjects()
+        projects.forEach(project => renderProject(project))
+    } catch (error) {
+        console.error("Erro ao renderizar projetos:", error)
+    }
 }
 
 function renderProject(project) {
