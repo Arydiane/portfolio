@@ -76,6 +76,7 @@ header {
     padding: 2rem 1rem;
     color: var(--color-text);
     text-decoration: none;
+    transition: all .4s;
 }
 
 #container-header a:hover {
@@ -113,6 +114,24 @@ h2 {
 #welcome-section h1 {
     color: var(--color-text);
     font-size: 4rem;
+}
+
+#welcome-section p {
+    -webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+    animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+}
+
+@keyframes text-focus-in {
+    0% {
+        -webkit-filter: blur(12px);
+        filter: blur(12px);
+        opacity: 0;
+    }
+    100% {
+        -webkit-filter: blur(0px);
+        filter: blur(0px);
+        opacity: 1;
+    }
 }
 
 .sections {
@@ -162,10 +181,11 @@ h2 {
     border: 3px solid var(--color-pink);
     color: var(--color-blue);
     text-decoration: none;
+    transition: all .4s;
 }
 
 .btn a:hover {
-    background-color: var(--color-blue);
+    background-color: transparent;
     color: var(--color-pink);
 }
 
@@ -200,6 +220,8 @@ h2 {
 
 .card-project:hover {
     border: 2px solid var(--color-pink);
+    transform: scale(105%);
+    transition: transform .4s;
 }
 
 .title-project {
@@ -231,6 +253,10 @@ h2 {
     justify-content: space-evenly;
 }
 
+#container-contact address {
+    font-style: normal;
+}
+
 #contact-text {
     flex: 1 1 40%;
 }
@@ -251,12 +277,16 @@ address {
 
 #contact h3,
 #contact a {
-    padding: 1rem;
+    padding: 1rem 0;
 }
 
 .icon {
     width: 3rem;
     margin: 0.5rem;
+}
+
+.icon:hover {
+    filter: drop-shadow(2px 2px 2px var(--color-pink));
 }
 
 footer {
@@ -275,7 +305,6 @@ footer a {
 footer a:hover {
     text-decoration: underline;
 }
-
 
 @media (prefers-reduced-motion: no-preference) {
     * {
@@ -332,6 +361,14 @@ footer a:hover {
 
     #container-projects {
         justify-content: center;
+    }
+
+    #container-contact {
+        text-align: center;
+    }
+
+    #redes-sociais-links {
+        margin: 1.5rem 0;
     }
 
     #contact-text,
