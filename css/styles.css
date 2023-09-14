@@ -167,7 +167,7 @@ h2 {
 }
 
 .btn a:hover {
-    background-color: var(--color-blue);
+    background-color: transparent;
     color: var(--color-pink);
 }
 
@@ -202,6 +202,8 @@ h2 {
 
 .card-project:hover {
     border: 2px solid var(--color-pink);
+    transform: scale(105%);
+    transition: transform .4s;
 }
 
 .title-project {
@@ -281,7 +283,6 @@ footer a {
 footer a:hover {
     text-decoration: underline;
 }
-
 
 @media (prefers-reduced-motion: no-preference) {
     * {
