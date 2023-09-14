@@ -253,6 +253,10 @@ h2 {
     justify-content: space-evenly;
 }
 
+#container-contact address {
+    font-style: normal;
+}
+
 #contact-text {
     flex: 1 1 40%;
 }
@@ -273,7 +277,7 @@ address {
 
 #contact h3,
 #contact a {
-    padding: 1rem;
+    padding: 1rem 0;
 }
 
 .icon {
@@ -357,6 +361,14 @@ footer a:hover {
 
     #container-projects {
         justify-content: center;
+    }
+
+    #container-contact {
+        text-align: center;
+    }
+
+    #redes-sociais-links {
+        margin: 1.5rem 0;
     }
 
     #contact-text,
