@@ -76,6 +76,7 @@ header {
     padding: 2rem 1rem;
     color: var(--color-text);
     text-decoration: none;
+    transition: all .4s;
 }
 
 #container-header a:hover {
@@ -162,6 +163,7 @@ h2 {
     border: 3px solid var(--color-pink);
     color: var(--color-blue);
     text-decoration: none;
+    transition: all .4s;
 }
 
 .btn a:hover {
