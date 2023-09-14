@@ -261,6 +261,10 @@ address {
     margin: 0.5rem;
 }
 
+.icon:hover {
+    filter: drop-shadow(2px 2px 2px var(--color-pink));
+}
+
 footer {
     text-align: center;
     font-size: 1.3rem;
